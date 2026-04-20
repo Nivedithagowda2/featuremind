@@ -256,7 +256,11 @@ MIT License
 
 ## 👩‍💻 Author
 
-**Niveditha** — Data Scientist & ML Engineer
+**Niveditha** — Data Scientist & ML Engineer  
+
+🔗 LinkedIn: https://www.linkedin.com/in/niveditha-89ba04356/  
+📦 PyPI: https://pypi.org/project/featuremind/  
+💻 GitHub: https://github.com/Nivedithagowda2/featuremind
 
 ---
 ## 🎬 Demo Video
