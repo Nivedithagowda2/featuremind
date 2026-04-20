@@ -9,7 +9,7 @@ pip install featuremind
 ```python
 import featuremind as fm
 fm.analyze("data.csv")
-
+```
 **One-line AutoML with Built-in Reliability, Leakage Detection & Explainability**
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
@@ -23,6 +23,7 @@ fm.analyze("data.csv")
 > ⭐ If this project helps you, give it a star — it really helps!
 
 ---
+
 
 ## 📌 What is featuremind?
 
@@ -48,7 +49,7 @@ featuremind v3.1 has been verified on:
 | Generic CSVs                     | Auto-detected  | Auto-detected | ✅ Works                                             |
 
 ---
-
+```
 ## 🚀 Key Features
 
 ### 🤖 Auto ML Pipeline
