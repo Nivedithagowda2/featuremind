@@ -7,7 +7,7 @@
 
 ```python
 
-pip install featuremind
+pip install featuremind==3.1.1
 
 # After installation import the featuremind
 import featuremind as fm
