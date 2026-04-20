@@ -1,5 +1,15 @@
 # 🧠 featuremind v3.1.1
 
+🚀 One-line AutoML with built-in reliability, leakage detection & explainability
+
+## ⚡ Try it in 30 seconds
+
+pip install featuremind
+
+```python
+import featuremind as fm
+fm.analyze("data.csv")
+
 **One-line AutoML with Built-in Reliability, Leakage Detection & Explainability**
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
@@ -19,13 +29,11 @@
 **featuremind** is a one-line AutoML library that handles the complete machine learning pipeline — from raw CSV to production-ready model — with built-in reliability checking, leakage detection, and feature engineering.
 
 ```python
-import featuremind as fm
-fm.analyze("data.csv")
-```
+# 🧠 featuremind v3.1.1
 
-That's it. One line. Full analysis, model selection, feature suggestions, SHAP importance, leakage check, and HTML report — all automated.
+🚀 One-line AutoML with built-in reliability, leakage detection & explainability
 
----
+
 
 ## 🧪 Tested Datasets
 
