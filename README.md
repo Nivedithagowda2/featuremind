@@ -259,6 +259,12 @@ MIT License
 **Niveditha** — Data Scientist & ML Engineer
 
 ---
+## 🎬 Demo Video
+
+Click below to watch the full demo:
+
+[▶️ Watch FeatureMind Demo](https://drive.google.com/file/d/1ta4vGuSruQpHMUtxmXqwdH7xvhJLY_4X/view)
+
 
 
 > ⭐ If this project helps you, consider giving it a star!
