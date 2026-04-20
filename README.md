@@ -4,9 +4,12 @@
 
 ## ⚡ Try it in 30 seconds
 
-pip install featuremind
 
 ```python
+
+pip install featuremind
+
+# After installation import the featuremind
 import featuremind as fm
 fm.analyze("data.csv")
 ```
@@ -30,10 +33,6 @@ fm.analyze("data.csv")
 **featuremind** is a one-line AutoML library that handles the complete machine learning pipeline — from raw CSV to production-ready model — with built-in reliability checking, leakage detection, and feature engineering.
 
 ```python
-# 🧠 featuremind v3.1.1
-
-🚀 One-line AutoML with built-in reliability, leakage detection & explainability
-
 
 
 ## 🧪 Tested Datasets
