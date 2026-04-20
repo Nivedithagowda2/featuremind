@@ -1,0 +1,17 @@
+# Core (required)
+pandas
+scikit-learn
+matplotlib
+numpy
+
+# Advanced models (recommended — install for best results)
+xgboost
+lightgbm
+catboost
+shap
+imbalanced-learn
+
+# API server (optional)
+fastapi
+uvicorn
+python-multipart
