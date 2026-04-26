@@ -2,6 +2,10 @@
 
 🚀 One-line AutoML with built-in reliability, leakage detection & explainability
 
+## 🎬 Demo Video
+
+![featuremind demo](main11-ezgif.com-optimize.gif)
+
 ## ⚡ Try it in 30 seconds
 
 
@@ -271,9 +275,7 @@ MIT License
 💻 GitHub: https://github.com/Nivedithagowda2/featuremind
 
 ---
-## 🎬 Demo Video
 
-![featuremind demo](main11-ezgif.com-optimize.gif)
 
 
 
