@@ -273,9 +273,7 @@ MIT License
 ---
 ## 🎬 Demo Video
 
-Click below to watch the full demo:
-
-[▶️ Watch FeatureMind Demo](https://drive.google.com/file/d/1ta4vGuSruQpHMUtxmXqwdH7xvhJLY_4X/view)
+![featuremind demo](main11-ezgif.com-optimize.gif)
 
 
 
