@@ -45,8 +45,7 @@ featuremind v3.1 has been verified on:
 
 | Dataset                          | Type           | Score         | Notes                                               |
 | -------------------------------- | -------------- | ------------- | --------------------------------------------------- |
-| Telecom Churn (7,043 rows)       | Classification | 85.7% F1      | ✅ Stable, well-balanced                             |
-| Credit Card Fraud (284,807 rows) | Classification | ~99% F1       | ⚠️ High score due to PCA-transformed separable data |
+| Telecom Churn (7,043 rows)       | Classification | 85.7% F1      | ✅ Stable, well-balanced                             | |
 | Heart Failure Medical            | Classification | ~80% Accuracy | ✅ Works                                             |
 | House Prices                     | Regression     | R² reported   | ✅ Works                                             |
 | Generic CSVs                     | Auto-detected  | Auto-detected | ✅ Works                                             |
