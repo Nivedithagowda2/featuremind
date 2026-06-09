@@ -27,7 +27,7 @@ fm.analyze("data.csv")
 
 ---
 
-> ⭐ If this project helps you, give it a star — it really helps!
+
 
 ---
 
