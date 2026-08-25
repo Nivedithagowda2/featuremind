@@ -1,12 +1,12 @@
-# 🧠 featuremind v3.1.1
+#  featuremind v3.1.1
 
-🚀 One-line AutoML with built-in reliability, leakage detection & explainability
+ One-line AutoML with built-in reliability, leakage detection & explainability
 
 ## 🎬 Demo Video
 
 ![featuremind demo](main11-ezgif.com-optimize.gif)
 
-## ⚡ Try it in 30 seconds
+##  Try it in 30 seconds
 
 
 ```python
@@ -32,14 +32,14 @@ fm.analyze("data.csv")
 ---
 
 
-## 📌 What is featuremind?
+##  What is featuremind?
 
 **featuremind** is a one-line AutoML library that handles the complete machine learning pipeline — from raw CSV to production-ready model — with built-in reliability checking, leakage detection, and feature engineering.
 
 ```python
 
 
-## 🧪 Tested Datasets
+##  Tested Datasets
 
 featuremind v3.1 has been verified on:
 
@@ -52,9 +52,9 @@ featuremind v3.1 has been verified on:
 
 ---
 ```
-## 🚀 Key Features
+##  Key Features
 
-### 🤖 Auto ML Pipeline
+###  Auto ML Pipeline
 
 * Loads and cleans any CSV automatically
 * Detects target column, task type (classification / regression), and data issues
@@ -62,65 +62,65 @@ featuremind v3.1 has been verified on:
 * Picks best model using cross-validation
 * Auto hyperparameter tuning (RandomizedSearchCV)
 
-### 🛡️ Leakage Guard (Core Feature)
+###  Leakage Guard (Core Feature)
 
 * Detects if any feature formula references the target column
 * Flags columns with suspiciously high correlation with target (>0.95)
 * Smart ID detection (non-generalizable columns)
 * Warns user before model training (no silent failures)
 
-### 🔍 Reliability Engine
+###  Reliability Engine
 
 * Detects unrealistic scores (>0.98)
 * Adjusts confidence level automatically:
 
-  * > 0.99 → Low confidence ❌
-  * > 0.98 → Medium ⚠️
+  * > 0.99 → Low confidence 
+  * > 0.98 → Medium 
 * Highlights possible issues:
 
   * Data leakage
   * Overfitting
   * Sampling bias
 
-### ⚖️ Class Imbalance Handling
+###  Class Imbalance Handling
 
 * Detects imbalance automatically
 * Applies SMOTE (if available)
 * Falls back to class weights
 * Switches evaluation metric to F1 when needed
 
-### 📊 SHAP Explainability
+###  SHAP Explainability
 
 * Computes SHAP values for model explainability
 * Displays top features influencing predictions
 * Helps identify real business drivers
 
-### 🔬 Feature Engineering (Multi-layer)
+###  Feature Engineering (Multi-layer)
 
 * Domain-aware features: Telecom · Medical · Real Estate · Finance · HR
 * Interactions, ratios, log transforms, polynomial features
 * Only surfaces features that improve performance
 
-### 🏗️ Production Pipeline
+###  Production Pipeline
 
 * Save trained model + preprocessing pipeline
 * Load and predict on new/unseen data
 * Handles missing columns and unseen categories
 
-### 🏆 Experiment Tracking
+###  Experiment Tracking
 
 * Logs every run automatically
 * Leaderboard of models and scores
 * Export results to CSV
 
-### 🌐 REST API (Optional)
+###  REST API (Optional)
 
 * FastAPI-based prediction server
 * Ready-to-use endpoints for deployment
 
 ---
 
-## 🆚 Why featuremind?
+##  Why featuremind?
 
 | Capability          | featuremind | Typical AutoML Tools |
 | ------------------- | ----------- | -------------------- |
@@ -132,7 +132,7 @@ featuremind v3.1 has been verified on:
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 pip install featuremind
@@ -146,7 +146,7 @@ pip install fastapi uvicorn python-multipart
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```python
 import featuremind as fm
@@ -167,19 +167,19 @@ fm.serve("churn_pipeline/", port=8000)
 
 ---
 
-## 🎬 Example Output
+##  Example Output
 
 ```text
-🧠 featuremind v3.1.1 — Starting Analysis
-🎯 Best Model   : LightGBM
-📊 Score        : 0.8569 (F1-weighted)
-🔒 Confidence   : High ✅
-🛡️ Leakage      : None detected
+ featuremind v3.1.1 — Starting Analysis
+ Best Model   : LightGBM
+ Score        : 0.8569 (F1-weighted)
+ Confidence   : High 
+ Leakage      : None detected
 ```
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 featuremind_project/
@@ -205,7 +205,7 @@ featuremind_project/
 
 ---
 
-## ⚠️ Notes
+##  Notes
 
 * High accuracy (>0.98) may indicate:
 
@@ -217,7 +217,7 @@ featuremind_project/
 
 ---
 
-## 📊 Output Files
+##  Output Files
 
 * `featuremind_report.html` → Full analysis report
 * `featuremind_report.png` → Feature visualization
@@ -227,7 +227,7 @@ featuremind_project/
 
 ---
 
-## 💡 Use Cases
+##  Use Cases
 
 * Telecom churn prediction
 * Fraud detection
@@ -238,19 +238,19 @@ featuremind_project/
 
 ---
 
-## 🔥 Why Developers Love featuremind
+##  Why Developers Love featuremind
 
-* ⚡ Go from raw data → model in **1 line**
-* 🛡️ Built-in **leakage detection** (rare in AutoML)
-* 📊 **Explainable AI (SHAP)** included by default
-* 🧠 **Reliability scoring** (not just accuracy)
-* 🏗️ Direct **production pipeline export**
+*  Go from raw data → model in **1 line**
+*  Built-in **leakage detection** (rare in AutoML)
+*  **Explainable AI (SHAP)** included by default
+*  **Reliability scoring** (not just accuracy)
+*  Direct **production pipeline export**
 
-👉 Not just AutoML — this is **AutoML + Trust Layer**
+ Not just AutoML — this is **AutoML + Trust Layer**
 
 ---
 
-## 🔮 Roadmap
+##  Roadmap
 
 * Time-series support
 * Deep learning integration
@@ -259,19 +259,19 @@ featuremind_project/
 
 ---
 
-## 📄 License
+##  License
 
 MIT License
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Niveditha** — Data Scientist & ML Engineer  
 
-🔗 LinkedIn: https://www.linkedin.com/in/niveditha-89ba04356/  
-📦 PyPI: https://pypi.org/project/featuremind/  
-💻 GitHub: https://github.com/Nivedithagowda2/featuremind
+ LinkedIn: https://www.linkedin.com/in/niveditha-89ba04356/  
+ PyPI: https://pypi.org/project/featuremind/  
+ GitHub: https://github.com/Nivedithagowda2/featuremind
 
 ---
 
