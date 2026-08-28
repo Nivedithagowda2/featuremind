@@ -7,7 +7,7 @@
 ![featuremind demo](main11-ezgif.com-optimize.gif)
 
 ##  Try it in 30 seconds
-this is downloded by the 2000+downloders 
+
 
 ```python 
 
